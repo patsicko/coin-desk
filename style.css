@@ -4,8 +4,11 @@
     box-sizing: border-box;
 }
 body{
-   
-    height: auto
+   background-color: antiquewhite;
+    height: auto;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
 }
 .main{
     width: 60%;

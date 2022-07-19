@@ -15,7 +15,7 @@ const cardDisplay=(time,code,rate,description)=>{
    
     <div class="usd">
       
-      code:${code} <br>
+      code: Bitcoin to ${code} <br>
       rate:${rate}<br>
       description:${description}
 
@@ -57,10 +57,6 @@ const fetchData=async()=>{
      code=data.bpi.EUR.code;
      rate=data.bpi.EUR.rate;
      description=data.bpi.EUR.description;
-
-
-    //  cardDisplay(time,code,rate,description);
-
 
      cardDisplay(data.time.updated,data.bpi.USD.code,data.bpi.USD.rate,data.bpi.USD.description);
      cardDisplay(data.time.updated,data.bpi.GBP.code,data.bpi.GBP.rate,data.bpi.GBP.description);

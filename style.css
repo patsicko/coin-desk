@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   
+    height: auto
+}
+.main{
+    width: 60%;
+    height: auto;
+    min-height: 600px;
+    background-color: aquamarine;
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-left: 20px;
+    display: flex;
+
+    justify-items: center;
+    justify-content: space-around;
+    padding-top: 60px;
+    
+}
+
+.time{
+    height: 50px;
+    width: 220px;
+    background-color: rgb(132, 186, 233);
+}
+.cards{
+width: 100%;
+height: auto;
+
+
+}
+
+.usd,.gbp,.eur{
+    padding-top: 50px;
+    height: 220px;
+    width: 220px;
+    background-color: black;
+    color: #ffffff;
+}
+
